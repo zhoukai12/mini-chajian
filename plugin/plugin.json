@@ -1,0 +1,23 @@
+{
+  "publicComponents": {
+    "hello-component": "components/hello-component"
+  },
+  "pages": {
+    "index": "pages/index/index",
+    "confirmationOrder": "pages/confirmationOrder/index"
+  },
+  "main": "index.js",
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "/pages/index/index",
+        "text": "点餐"
+      },
+      {
+        "pagePath": "/pages/discount/index",
+        "text": "订单"
+      }
+    ]
+  }
+}
